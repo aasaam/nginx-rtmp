@@ -1,0 +1,7 @@
+# Copyright (c) 2022 aasaam software development group
+version: '3'
+
+services:
+  nginx-rtmp:
+    container_name: nginx-rtmp
+    image: ghcr.io/aasaam/nginx-rtmp:latest
